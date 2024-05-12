@@ -1,0 +1,47 @@
+{
+  "name": "sirris-submarine",
+  "displayName": "SirriS's Submarine",
+  "description": "Aquatic dark themed layout where almost every single scope and token has its own unique color desined to be as simple and intuitive as possible",
+  "version": "1.0.0",
+  "publisher": "DonaldHarrington",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SirriS-projects/SirriS.s_submarine"
+  },
+  "icon": "Logo.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Color theme",
+    "Dark mode",
+    "Under the ocean",
+    "Underwater",
+    "Aquatic",
+    "SirriS's Submarine",
+    "SirriS Submarine",
+    "sirris submarine",
+    "sirris-submarine",
+    "blue green theme",
+    "green blue theme",
+    "blue/green theme",
+    "green/blue theme",
+    "dark theme",
+    "submarine",
+    "sirris",
+    "SirriS",
+    "Donald Harrington"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SirriS's Submarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SirriS's Submarine-color-theme.json"
+      }
+    ]
+  }
+}
