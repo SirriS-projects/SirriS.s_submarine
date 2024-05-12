@@ -1,8 +1,8 @@
 {
   "name": "sirris-submarine",
   "displayName": "SirriS's Submarine",
-  "description": "Aquatic dark themed layout where almost every single scope and token has its own unique color desined to be as simple and intuitive as possible",
-  "version": "1.0.0",
+  "description": "Aquatic dark themed layout where almost every single scope and token has its own unique color designed to be as simple and intuitive as possible",
+  "version": "1.1.0",
   "publisher": "DonaldHarrington",
   "engines": {
     "vscode": "^1.89.0"
@@ -19,6 +19,7 @@
     "Color theme",
     "Dark mode",
     "Under the ocean",
+    "Ocean",
     "Underwater",
     "Aquatic",
     "SirriS's Submarine",

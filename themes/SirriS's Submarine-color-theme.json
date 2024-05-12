@@ -1,10 +1,18 @@
 {
 	"name": "SirriS's Submarine",
 	"colors": {
-		"editor.background": "#182328",
+		//EDITOR
+		"editor.background": "#012434",
 		"editor.foreground": "#eeffff",
-		"sideBarTitle.foreground": "#42b0ff",
-		"sideBar.background": "#182328",
+		"editor.wordHighlightTextBackground": "#00000000",
+		"editor.wordHighlightTextBorder": "#ffffff6b",
+        "editor.findMatchHighlightBackground": "#ffffff00",
+		"editor.findMatchHighlightBorder": "#fff200",
+		"editor.hoverHighlightBackground": "#ffffff3f",
+		"editor.lineHighlightBackground": "#ffffff00",
+		"editor.lineHighlightBorder": "#ffffff28",
+		"editor.stackFrameHighlightBackground": "#ff000000",
+		//EDITOR BRACKET
 		"editorBracketHighlight.foreground1": "#44bdff",
         "editorBracketHighlight.foreground2": "#79fff4",
 		"editorBracketHighlight.foreground3": "#59d68d",
@@ -12,33 +20,62 @@
 		"editorBracketHighlight.foreground5": "#e2f062",
         "editorBracketHighlight.foreground6": "#ffcd43",
         "editorBracketHighlight.unexpectedBracket.foreground": "#e04147",
-        "editorIndentGuide.activeBackground1": "#ffffff",
-        "editorIndentGuide.background1": "#8a8a8a",
-        "tree.indentGuidesStroke": "#ffffff",
-		"tab.activeBackground": "#182328",
-		"tab.inactiveBackground": "#0f191d",
-		"tab.hoverBackground": "#182328",
-		"tab.unfocusedHoverBackground": "#182328",
-		"editorGroupHeader.tabsBackground": "#0f191d",
-		"tab.border": "#6d6d6d",
-		"sideBar.border": "#6d6d6d",
-		"panel.border": "#6d6d6d",
+		//EDITOR GROUP
 		"editorGroup.border": "#6d6d6d",
+		//EDITOR GROUP HEADER
+		"editorGroupHeader.tabsBackground": "#01131c",
+		//EDITOR INDENT GUIDE
+		"editorIndentGuide.activeBackground1": "#ffffff",
+        "editorIndentGuide.background1": "#8a8a8a",
+		//SIDEBAR
+		"sideBar.background": "#012434",
+		"sideBar.border": "#6d6d6d",
+		//SIDEBAR TITLE
+		"sideBarTitle.foreground": "#0091ff",
+		//TAB
+		"tab.activeBackground": "#012434",
+		"tab.inactiveBackground": "#011823",
+		"tab.hoverBackground": "#012434",
+		"tab.unfocusedHoverBackground": "#012434",
+		"tab.border": "#6d6d6d",
+		//EDITOR WIDGET
+		"editorWidget.background": "#01393a",
+		"editorWidget.border": "#00ffea",
+		"editorWidget.resizeBorder": "#007b71",
+		"editorWidget.foreground": "#ffffff",
+		//EDITOR HOVER WIDGET
+		"editorHoverWidget.background": "#01393ae0",
+		"editorHoverWidget.border": "#00ffea",
+		//LIST
+		"list.hoverBackground": "#023f5b",
+		"list.activeSelectionBackground": "#015269",
+		"list.inactiveSelectionBackground": "#015269",
+        //TREE
+        "tree.indentGuidesStroke": "#ffffff",
+		//PANEL
+		"panel.border": "#6d6d6d",
+		//SCROLLBAR
 		"scrollbarSlider.activeBackground": "#00000000",
 		"scrollbarSlider.background": "#ff000000",
 		"scrollbarSlider.hoverBackground": "#ff000000",
-        "minimapSlider.background": "#ffffff49",
+		//MINIMAP
         "minimap.background": "#18232800",
-		"editor.wordHighlightTextBackground": "#ffffff00",
-		"editor.wordHighlightTextBorder": "#d9ff00",
-        "minimap.findMatchHighlight": "#d9ff00f5",
+		"minimap.findMatchHighlight": "#d9ff00f5",
 		"minimap.selectionOccurrenceHighlight": "#ffffff00",
-        "editor.findMatchHighlightBackground": "#fbff006d",
-		"editor.hoverHighlightBackground": "#ffffff3f",
-		"editor.lineHighlightBackground": "#ffffff00",
-		"editor.lineHighlightBorder": "#ffffff28",
-		"editor.stackFrameHighlightBackground": "#ff0000ad",
-		"bookmarks.lineBackground": "#ff0000ad"
+		//MINIMAP SLIDER
+		"minimapSlider.background": "#ffffff49",
+		"minimapSlider.hoverBackground": "#ffffff72",
+		"minimapSlider.activeBackground": "#ffffff72",
+		//BOOKMARKS
+		"bookmarks.lineBackground": "#ff0000ad",
+		//INPUT
+		"input.background": "#364f50",
+		//DROPDOWN
+		"dropdown.background": "#364f50",
+		//INPUT OPTION
+		"inputOption.activeForeground": "#ffffff",
+		//DEBUG TOOLBAR
+		"debugToolBar.background": "#01393a",
 	},
 	"tokenColors": [
 		{
@@ -103,6 +140,7 @@
 		{
 			"name": "Math",
 			"scope": [
+				"keyword.operator.ternary",
 				"keyword.operator.decrement",
 				"keyword.operator.increment",
 				"keyword.operator.assignment",
