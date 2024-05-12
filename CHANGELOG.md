@@ -1,18 +1,18 @@
 # Change Log
 ## [1.1.0] - 5/12/24
 ### Changed
--changed general backgrounds to a more deeper blue\n
--minimap slider is no longer invisible when hovering or active\n
--changed default colors of find widget\n
--changed default color when hovering over files in the file tree\n
--changed default color input background\n
--changed default color of editor hover widget to have cool slight transparent effect\n
--changed default color of debug preset config setting background\n
--changed color of question mark from green to white\n
--changed default color of terminal status box\n
--all matching items highlight now have semi-visible white border with transparent background\n
--all find matches highlight now have yellow border with transparent background\n
--breakpoint lines are no longer overwhelmingly red\n
+-changed general backgrounds to a more deeper blue\
+-minimap slider is no longer invisible when hovering or active\
+-changed default colors of find widget \
+-changed default color when hovering over files in the file tree\
+-changed default color input background\
+-changed default color of editor hover widget to have cool slight transparent effect\
+-changed default color of debug preset config setting background\
+-changed color of question mark from green to white\
+-changed default color of terminal status box\
+-all matching items highlight now have semi-visible white border with transparent background\
+-all find matches highlight now have yellow border with transparent background\
+-breakpoint lines are no longer overwhelmingly red\
 
 
 
